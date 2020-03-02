@@ -5,6 +5,7 @@ from drf_yasg.views import get_schema_view
 from rest_framework.permissions import AllowAny
 from drf_yasg import openapi
 
+
 schema_url_v1_patterns = [
     url(r'^post/v1', include(('post.urls','post'), namespace='post')),
 ]
@@ -26,7 +27,6 @@ schema_view_v1 = get_schema_view(
     permission_classes=(AllowAny,),
     patterns=schema_url_v1_patterns,
 )
-
 
 urlpatterns = [
     path('admin/', admin.site.urls),

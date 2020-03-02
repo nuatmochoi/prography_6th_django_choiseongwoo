@@ -111,6 +111,13 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
+ACCOUNT_EMAIL_VERIFICATION = 'none'
+
+ACCOUNT_AUTHENTICATION_METHOD = 'username'
+
+ACCOUNT_EMAIL_REQUIRED = False
+
+
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
