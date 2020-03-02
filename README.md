@@ -13,6 +13,7 @@ Django REST Framework를 이용하여 게시물 api를 개발하였습니다.
 ## 필수 요구사항 외 
 
 - [API 문서](http://tjddn8770.pythonanywhere.com/docs/) : drf-yasg 사용
+- pythonanywhere을 이용해 배포
 - Pagination : 게시물은 페이지마다 2개씩 출력
 - 게시물 접근 권한
     - 게시물 목록 및 세부 사항 : 모든 User가 접근 가능
