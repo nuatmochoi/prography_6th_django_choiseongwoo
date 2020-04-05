@@ -41,3 +41,7 @@ Django REST Framework를 이용하여 게시물 api를 개발하였습니다.
 2. [로그인](http://tjddn8770.pythonanywhere.com/rest-auth/login/)
 3. [게시물 작성](http://tjddn8770.pythonanywhere.com/post/create/)
 4. 게시물 수정 및 삭제
+
+## 추후 수정 사항
+
+- 게시물 검색 api 추가
